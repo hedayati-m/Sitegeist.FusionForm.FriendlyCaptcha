@@ -11,7 +11,7 @@
     "type": "neos-package",
     "name": "sitegeist/fusionform-friendlycaptcha",
     "require": {
-        "neos/fusion-form": "~2.0 || dev-master || dev-main"
+        "neos/fusion-form": "~3.0 || dev-main"
     },
     "autoload": {
         "psr-4": {
