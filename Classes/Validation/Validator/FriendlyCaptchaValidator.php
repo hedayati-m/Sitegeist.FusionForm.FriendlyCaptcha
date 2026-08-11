@@ -56,7 +56,7 @@ class FriendlyCaptchaValidator extends AbstractValidator
                     json_encode([
                         'secret' => $siteSecret,
                         'solution' => $captchaResponse,
-                        'siteKey' => $siteKey
+                        'sitekey' => $siteKey
                     ])
                 )
             );
