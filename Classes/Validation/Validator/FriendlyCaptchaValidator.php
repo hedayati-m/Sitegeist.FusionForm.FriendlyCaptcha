@@ -37,6 +37,8 @@ class FriendlyCaptchaValidator extends AbstractValidator
         'siteSecret' => [null, 'siteSecret', 'string', false]
     ];
 
+    protected $acceptsEmptyValues = false;
+
 
     protected function isValid($captcha): void
     {
